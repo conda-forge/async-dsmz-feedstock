@@ -1,4 +1,4 @@
-{% set version = "2025.0.4" %}
+{% set version = "2025.0.5" %}
 {% set name = "async-dsmz" %}
 {% set python_min = "3.12" %}
 
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/async_dsmz-{{ version }}.tar.gz
-  sha256: 4d2dd65c7163fadae28215d703ff247358c246ad99e944ff73c0857ec04a78be
+  sha256: 2b291b10d017fe8953de9525f833832f68c867be699dc0987d818a46775ca3c6
 
 build:
   noarch: python
